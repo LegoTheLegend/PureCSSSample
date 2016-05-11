@@ -1,0 +1,64 @@
+body {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #1b98f8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-menu {
+    background-color: rgb(37, 42, 58);
+    position: relative;
+}
+.menu-nav a {
+    color: #fff;
+}
+.menu-nav a:hover {
+    background-color: rgb(72, 79, 106);
+}
+.navigation-menu {
+    display: block;
+    padding: 2em 0;
+}
+.email-count {
+    color: rgb(75, 113, 151);
+}
+.menu-heading {
+    color: rgb(75, 113, 151);
+    text-transform: uppercase;
+}
+.menu-button {
+    color: #fff;
+    background: #1b98f8;
+    margin: 1em 0;
+    border-radius: 20px;
+}
+.email-label-personal {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 0.5em;
+    border-radius: 3px;
+    background: #ffc94c;
+}
+.email-label-work {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 0.5em;
+    border-radius: 3px;
+    background: #41ccb4;
+}
+.email-label-travel {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 0.5em;
+    border-radius: 3px;
+    background: #40c365;
+}
